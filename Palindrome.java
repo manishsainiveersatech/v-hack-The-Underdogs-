@@ -13,7 +13,7 @@ public class PalindromicChanges {
         for (int i = 0; i < 26; i++) {
             Arrays.fill(cost[i], MAX);
         }
-        char ch[][] = new char[3][m];
+        char ch[][] = new char[m][3];
         for(int i = 0; i < m; i++) {
             String t = br.readLine();
             char[] temp = { t.charAt(0), t.charAt(2), (char)Integer.parseInt(t.substring(4)) };
